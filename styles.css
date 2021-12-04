@@ -1,5 +1,5 @@
-html,
-body {
+
+.myBody {
   min-width: 290px;
   color: #4d4e53;
   background-color: #ffffff;
@@ -7,7 +7,7 @@ body {
   line-height: 1.5;
 }
 
-#navbar {
+.navbar {
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -18,7 +18,7 @@ body {
   border-color: rgba(0, 22, 22, 0.4);
 }
 
-header {
+.myHeader {
   color: black;
   margin: 10px;
   text-align: center;
@@ -31,14 +31,14 @@ header {
   margin: 0px;
 }
 
-#navbar ul {
+.navbar ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-#navbar li {
+.navbar li {
   color: #4d4e53;
   border-top: 1px solid;
   list-style: none;
@@ -46,7 +46,7 @@ header {
   width: 100%;
 }
 
-#navbar a {
+.navbar a {
   display: block;
   padding: 10px 30px;
   color: #4d4e53;
@@ -54,7 +54,7 @@ header {
   cursor: pointer;
 }
 
-#main-doc {
+.main-doc {
   position: absolute;
   margin-left: 310px;
   padding: 20px;
@@ -91,7 +91,7 @@ code {
     height: 207px;
   }
 
-  #navbar {
+  .navbar {
     background-color: white;
     position: absolute;
     top: 0;
@@ -104,7 +104,7 @@ code {
     border-bottom: 2px solid;
   }
 
-  #main-doc {
+  .main-doc {
     position: relative;
     margin-left: 0px;
     margin-top: 270px;
